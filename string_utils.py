@@ -22,7 +22,6 @@ def split_at_first_digit(formula):
             break
         digit_pos += 1
 
-    digit_pos += 1
 
     if digit_pos == len(formula):
         return formula, 1
